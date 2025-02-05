@@ -11,15 +11,15 @@ This project focuses on building a machine learning classification model to pred
 - Optimise model performance with feature selection, tuning, and evaluation.  
 
 ## Data & Methodology  
-- **Data Analysis**: Univariate, bivariate, and multivariate analysis to understand key patterns.  
-- **Preprocessing**: Handling missing values, treating outliers, and scaling features.  
-- **Models Used**: Logistic Regression, Decision Tree, Random Forest (with tuning via GridSearchCV).  
-- **Evaluation Metric**: Prioritised recall to maximize defaulter identification and minimise financial risk.  
+- Data Analysis: Univariate, bivariate, and multivariate analysis to understand key patterns.  
+- Preprocessing: Handling missing values, treating outliers, and scaling features.  
+- Models Used: Logistic Regression, Decision Tree, Random Forest (with tuning via GridSearchCV).  
+- Evaluation Metric: Prioritised recall to maximize defaulter identification and minimise financial risk.  
 
 ## Key Findings  
 - 20% of applicants default on their loans, highlighting a significant class imbalance.  
-- Important features include **debt-to-income ratio, number of delinquent credit lines, and credit inquiry age**.  
-- **Tuned Decision Tree Model** was selected for its high recall (76%) in identifying defaulters.  
+- Important features include debt-to-income ratio, number of delinquent credit lines, and credit inquiry age.  
+- Tuned Decision Tree Model was selected for its high recall (76%) in identifying defaulters.  
 
 ## Next Steps  
 - Further fine-tuning to improve recall and prevent overfitting.  
@@ -27,5 +27,5 @@ This project focuses on building a machine learning classification model to pred
 - Scaling the solution for larger datasets.  
 
 ## Tech Stack  
-- **Programming Language**: Python  
-- **Libraries**: Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn  
+- Programming Language: Python  
+- Libraries: Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn  
