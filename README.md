@@ -1,6 +1,6 @@
 # Loan Default Prediction with Machine Learning Classification Models
 
-Developed predictive models that help banks minimize loan default risk, enhance decision-making, reduce financial losses, and ensure regulatory compliance.
+Developed predictive models that help banks minimise loan default risk, enhance decision-making, reduce financial losses, and ensure regulatory compliance.
 
 ## Overview  
 This project focuses on building a machine learning classification model to predict loan defaulters, allowing banks to mitigate financial risks and improve lending strategies. By leveraging key borrower attributes, the model identifies high-risk applicants and supports responsible lending practices.
@@ -23,7 +23,6 @@ The goal is to build a classification model that predicts loan defaulters, helpi
 - Train-Test Splitting (70%-30%)  
 - Model Tuning (GridSearchCV)  
 - Performance Evaluation with a Focus on Recall
-- 
 
 ## Data Dictionary  
 The Home Equity (HMEQ) dataset contains baseline and loan performance information for recent home equity loans. The target variable (BAD) indicates whether an applicant defaulted or was severely delinquent. The dataset consists of 12 input features:  
